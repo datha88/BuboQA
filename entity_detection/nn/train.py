@@ -9,8 +9,10 @@ import random
 from evaluation import evaluation
 from sq_entity_dataset import SQdataset
 from entity_detection import EntityDetection
+import sys
 
-np.set_printoptions(threshold=np.nan)
+#np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=sys.maxsize)
 # Set default configuration in : args.py
 args = get_args()
 

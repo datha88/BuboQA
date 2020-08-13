@@ -8,8 +8,10 @@ from args import get_args
 import random
 from sq_relation_dataset import SQdataset
 from relation_prediction import RelationPrediction
+import sys
 
-np.set_printoptions(threshold=np.nan)
+#np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=sys.maxsize)
 # Set default configuration in : args.py
 args = get_args()
 
